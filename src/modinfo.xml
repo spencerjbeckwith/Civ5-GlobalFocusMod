@@ -8,7 +8,7 @@
         <HideSetupGame>0</HideSetupGame>
         <AffectsSavedGames>1</AffectsSavedGames>
         <SupportsSinglePlayer>1</SupportsSinglePlayer>
-        <SupportsMultiPlayer>1</SupportsMultiPlayer>
+        <SupportsMultiplayer>1</SupportsMultiplayer>
         <SupportsHotseat>1</SupportsHotseat>
         <SupportsMac>1</SupportsMac>
         <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
@@ -19,11 +19,23 @@
     <References />
     <Blocks />
     <Files>
-        <!-- TODO -->
+        <File md5="$GF_LUA_MD5$" import="1">GlobalFocus.lua</File>
+        <File md5="$GF_XML_MD5$" import="1">GlobalFocus.xml</File>
+        <File md5="$GF_TEXT_MD5$" import="1">GlobalFocusText.xml</File>
     </Files>
     <Actions>
         <OnModActivated>
-            <!-- TODO -->
+            <UpdateDatabase>GlobalFocusText.xml</UpdateDatabase>
         </OnModActivated>
     </Actions>
+    <EntryPoints>
+        <EntryPoint type="InGameUIAddin" file="GlobalFocus.lua">
+            <Name>GlobalFocus.lua</Name>
+            <Description></Description>
+        </EntryPoint>
+        <EntryPoint type="InGameUIAddin" file="GlobalFocus.xml">
+            <Name>GlobalFocus.xml</Name>
+            <Description></Description>
+        </EntryPoint>
+    </EntryPoints>
 </Mod>
