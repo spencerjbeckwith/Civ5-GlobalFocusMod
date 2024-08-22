@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="$MOD_ID$" version="$VERSION$">
+    <Properties>
+        <Name>GlobalFocus</Name>
+        <Teaser>Easily set or unset the focus for all your cities with one click!</Teaser>
+        <Description>Use the GlobalFocus menu to set or unset the focus for all your cities with only one click.</Description>
+        <Authors>Spencer Beckwith</Authors>
+        <HideSetupGame>0</HideSetupGame>
+        <AffectsSavedGames>1</AffectsSavedGames>
+        <SupportsSinglePlayer>1</SupportsSinglePlayer>
+        <SupportsMultiPlayer>1</SupportsMultiPlayer>
+        <SupportsHotseat>1</SupportsHotseat>
+        <SupportsMac>1</SupportsMac>
+        <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+        <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+        <ReloadUnitSystem>0</ReloadUnitSystem>
+    </Properties>
+    <Dependencies />
+    <References />
+    <Blocks />
+    <Files>
+        <!-- TODO -->
+    </Files>
+    <Actions>
+        <OnModActivated>
+            <!-- TODO -->
+        </OnModActivated>
+    </Actions>
+</Mod>
