@@ -18,11 +18,13 @@ You can still change cities' individual focuses manually. If you do so, the Glob
 
 ## Download/Installation
 
-TODO
+First, navigate to the [Releases](https://github.com/spencerjbeckwith/Civ5-GlobalFocusMod/releases) page and download the `.zip` file of the latest version.
+
+Extract the folder within this `.zip` so it lands in your `MODS` directory and the game will detect it automatically. On Windows, this is under `My Documents\My Games\Sid Meier's Civilization V\MODS`. On Linux (playing with Steam compatibility) this directory is under your Wine/Proton prefix, which will look something like `~/.steam/steam/steamapps/compatdata/8930/pfx/drive_c/users/steamuser/Documents/My Games/Sid Meier's Civilization 5/MODS/`. 8930 is the ID for Civ 5.
 
 ## Development
 
-This mod was not developed in ModBuddy. Thankfully there is very little that ModBuddy does that can't be done in a regular repository.
+This mod was not developed in ModBuddy. Thankfully there is very little that ModBuddy does that can't be done in a regular repository... except upload to the Steam workshop, unfortunately.
 
 To "build" the mod, run `make build`. This will build your `.modinfo` file (including the mod's version and MD5 hashes of source files). It will also move the mod source files into the `output` directory, which can be dropped directly into your Civ 5 `MODS` folder.
 
