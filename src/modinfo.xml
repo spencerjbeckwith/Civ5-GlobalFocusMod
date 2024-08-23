@@ -2,8 +2,8 @@
 <Mod id="$MOD_ID$" version="$VERSION$">
     <Properties>
         <Name>Global Focus</Name>
-        <Teaser>Easily set or unset the focus for all your cities with one click!</Teaser>
-        <Description>Use the Global Focus menu to set or unset the focus for all your cities with only one click. Puppeted cities are excluded as their focus cannot be changed.</Description>
+        <Teaser>Easily set or unset the focus for all your cities at once!</Teaser>
+        <Description>Use the Global Focus menu to set or unset the focus for all your cities at once. When cities are settled or annexed, their focuses will be set to the current focus. Puppeted cities are excluded as their focus cannot be changed.</Description>
         <Authors>Spencer Beckwith</Authors>
         <HideSetupGame>0</HideSetupGame>
         <AffectsSavedGames>1</AffectsSavedGames>
