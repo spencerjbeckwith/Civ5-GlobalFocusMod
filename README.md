@@ -9,3 +9,7 @@ TODO
 ## Development
 
 TODO
+
+## TODO
+
+- Support multiple human players (no conditional checks on `player:IsHuman()`)

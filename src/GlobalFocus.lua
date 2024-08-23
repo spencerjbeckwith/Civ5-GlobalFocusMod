@@ -115,7 +115,26 @@ Controls.Close:RegisterCallback(Mouse.eLClick, Close)
 ---------------------------------------
 -- Event listeners for city settle and annex
 ---------------------------------------
--- TODO
+GameEvents.PlayerCityFounded.Add(
+    function(player, cityX, cityY)
+        -- Only update for human player
+        if Players[player]:IsHuman() then
+            local city = Map.GetPlot(cityX, cityY):GetPlotCity();
+            SetCityTo(city, GetCurrentFocus());
+        end
+    end
+);
+GameEvents.CityCaptureComplete.Add(
+    function(iOldOwner, bIsCapital, iX, iY, iNewOwner, iPop, bConquest)
+        -- Only update for human player
+        if Players[iNewOwner]:IsHuman() then
+            local city = Map.GetPlot(iX, iY):GetPlotCity();
+            -- Doesn't matter at this point if the city was puppeted or not
+            -- The game will set it back to gold focus automatically, but this will work for those that are immediately annexed
+            SetCityTo(city, GetCurrentFocus());
+        end
+    end
+);
 
 ---------------------------------------
 -- Add menu to additional information dropdown

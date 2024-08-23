@@ -3,13 +3,13 @@
     <Properties>
         <Name>Global Focus</Name>
         <Teaser>Easily set or unset the focus for all your cities at once!</Teaser>
-        <Description>Use the Global Focus menu to set or unset the focus for all your cities at once. When cities are settled or annexed, their focuses will be set to the current focus. Puppeted cities are excluded as their focus cannot be changed.</Description>
+        <Description>Use the Global Focus menu to set or unset the focus for all your cities at once. When cities are settled, their focuses will be set to the current focus automatically. Puppeted cities are excluded as their focus cannot be changed. Puppets that are annexed will remain on gold focus until they are changed manually or from the Global Focus menu. Cities that are immediately annexed after being acquired, however, will have their focus set to the global focus.</Description>
         <Authors>Spencer Beckwith</Authors>
         <HideSetupGame>0</HideSetupGame>
         <AffectsSavedGames>1</AffectsSavedGames>
         <SupportsSinglePlayer>1</SupportsSinglePlayer>
-        <SupportsMultiplayer>1</SupportsMultiplayer>
-        <SupportsHotseat>1</SupportsHotseat>
+        <SupportsMultiplayer>0</SupportsMultiplayer>
+        <SupportsHotseat>0</SupportsHotseat>
         <SupportsMac>1</SupportsMac>
         <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
         <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>

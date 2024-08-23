@@ -5,7 +5,7 @@
             <Text>Global Focus</Text>
         </Row>
         <Row Tag="TXT_KEY_GLOBALFOCUS_INSTRUCTIONS_TT">
-            <Text>The selected focus will also apply to cities you settle or annex. It will not apply to any puppeted cities.</Text>
+            <Text>The selected focus will also apply to cities you settle. It will not apply to any puppeted cities, which are forced to remain on gold focus until they are annexed.</Text>
         </Row>
         <Row Tag="TXT_KEY_GLOBALFOCUS_CURRENT_FOCUS">
             <Text>Current focus set to: {1}</Text>
