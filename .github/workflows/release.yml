@@ -1,0 +1,23 @@
+name: Build and Release
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v4.1.7
+      - run: echo "VERSION=$(cat VERSION.txt)" >> $GITHUB_ENV
+      - run: make build
+      - run: cp -r output GlobalFocusMod
+      - run: zip -r Civ5-GlobalFocusMod-${{ env.VERSION }}.zip GlobalFocusMod/
+      - uses: ncipollo/release-action@v1.14.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag: ${{ env.VERSION }}
+          name: Release ${{ env.VERSION }}
+          artifacts: Civ5-GlobalFocusMod-${{ env.VERSION }}.zip
