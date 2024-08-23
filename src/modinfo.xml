@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="$MOD_ID$" version="$VERSION$">
     <Properties>
-        <Name>GlobalFocus</Name>
+        <Name>Global Focus</Name>
         <Teaser>Easily set or unset the focus for all your cities with one click!</Teaser>
-        <Description>Use the GlobalFocus menu to set or unset the focus for all your cities with only one click.</Description>
+        <Description>Use the Global Focus menu to set or unset the focus for all your cities with only one click. Puppeted cities are excluded as their focus cannot be changed.</Description>
         <Authors>Spencer Beckwith</Authors>
         <HideSetupGame>0</HideSetupGame>
         <AffectsSavedGames>1</AffectsSavedGames>
@@ -29,10 +29,6 @@
         </OnModActivated>
     </Actions>
     <EntryPoints>
-        <EntryPoint type="InGameUIAddin" file="GlobalFocus.lua">
-            <Name>GlobalFocus.lua</Name>
-            <Description></Description>
-        </EntryPoint>
         <EntryPoint type="InGameUIAddin" file="GlobalFocus.xml">
             <Name>GlobalFocus.xml</Name>
             <Description></Description>

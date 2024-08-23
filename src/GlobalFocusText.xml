@@ -1,1 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Language_en_US>
+        <Row Tag="TXT_KEY_GLOBALFOCUS_TITLE">
+            <Text>Global Focus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GLOBALFOCUS_INSTRUCTIONS">
+            <Text>Select a focus for all cities.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GLOBALFOCUS_DEFAULT">
+            <Text>None (Default)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GLOBALFOCUS_FOOD">
+            <Text>Food</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GLOBALFOCUS_PRODUCTION">
+            <Text>Production</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GLOBALFOCUS_GOLD">
+            <Text>Gold</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GLOBALFOCUS_GREAT_PEOPLE">
+            <Text>Great People</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GLOBALFOCUS_SCIENCE">
+            <Text>Science</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GLOBALFOCUS_CULTURE">
+            <Text>Culture</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GLOBALFOCUS_CLOSE">
+            <Text>Close</Text>
+        </Row>
+    </Language_en_US>
+</GameData>
