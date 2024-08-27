@@ -73,7 +73,7 @@ function Open()
         local cityFocus = city:GetFocusType();
         if not city:IsPuppet() and cityFocus ~= currentFocus then
             foundDifference = true;
-            table.insert(differentCities, "[ICON_BULLET] "..city:GetName().." ("..GetFocusName(cityFocus)..")");
+            table.insert(differentCities, "[ICON_BULLET] "..city:GetName().." ("..GetFocusName(cityFocus)..")[NEWLINE]");
         end
     end
     if foundDifference then
